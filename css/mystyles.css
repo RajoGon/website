@@ -1,0 +1,100 @@
+body{
+	
+		background-image:url("../images/bg4.jfif")  ;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-size: cover;
+/*	background-color: rgb(15,16,22,0.3);*/
+
+}
+
+
+.hvr-sweep-to-right:before {
+
+  background: #2d383d;
+
+}
+.namecol{
+	color:#d8d7d6;
+}
+#mypic {
+  display:none;
+  text-align: center;
+
+}
+
+#name:hover + #mypic {
+  display:block;
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+
+}
+#jumb {
+  background-color: #cddcf4;
+  background-image: url(../images/jumbo.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+ 
+
+
+
+h1{
+	text-align: center;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#info{
+	text-shadow: -1px -1px #666, 1px 1px #FFF;
+}
+.hvr-bubble-bottom{
+	left:32%;
+
+}
+.hvr-bubble-bottom:before {
+  border-color: #576f96 transparent transparent transparent;
+}
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}  
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+#foot{
+	background-color: #14151E;
+	color: #EDF2F4;
+	width: 100%;
+	height:auto;
+	margin:0 auto 0 auto;
+    bottom:0;
+    padding-top: 10px;
+    background: -moz-linear-gradient(top, rgba(30,87,153,0.2) 0%, rgba(40,65,110,1) 13%, rgba(46,51,84,1) 21%, rgba(37,46,68,1) 27%, rgba(2,3,5,1) 52%, rgba(15,18,28,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,0.2) 0%,rgba(40,65,110,1) 13%,rgba(46,51,84,1) 21%,rgba(37,46,68,1) 27%,rgba(2,3,5,1) 52%,rgba(15,18,28,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,0.2) 0%,rgba(40,65,110,1) 13%,rgba(46,51,84,1) 21%,rgba(37,46,68,1) 27%,rgba(2,3,5,1) 52%,rgba(15,18,28,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#331e5799', endColorstr='#0f121c',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+#contact2{
+
+}
+#web:link{
+color: white;
+
+}
+

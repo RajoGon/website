@@ -29,6 +29,9 @@ body{
   animation: fadeIn 2s;
 
 }
+#name:hover #dshow {
+  display:none;
+}
 #jumb {
   background-color: #cddcf4;
   background-image: url(../images/jumbo.jfif);
@@ -36,7 +39,13 @@ body{
   background-size: 100% 100%;
 
 }
- 
+#jumb2 {
+  background-color: #B7B7B7;
+  /*background-image: url(../images/techbg.jpg);*/
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+} 
 
 
 

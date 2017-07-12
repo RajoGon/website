@@ -8,6 +8,7 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/hover-min.css">
   <link rel="stylesheet" type="text/css" href="css/mystyles.css">
 
@@ -37,7 +38,7 @@
 
   	<div class="container">
   	<div class="jumbotron" id="jumb">
-    <h1 id="name" class="hvr-bubble-bottom">Rajorshi Gon</h1> 
+    <h1 id="name" class="hvr-bubble-bottom animated flip" onmouseout="document.getElementById('mypic').style.display = 'block';"  onmouseover="document.getElementById('swap1').style.display = 'none'; document.getElementById('swap2').style.display = 'block';" onmouseout="document.getElementById('swap1').style.display = 'block';">Rajorshi Gon</h1> 
       <div id="mypic" class="row">
           <div class="col-md-4">
 
@@ -49,14 +50,15 @@
 
         </div>
       </div>
-    <p id="info" style="text-align: center;">Hi! Thats's me! An avid gamer and an enthusiastic sketch artist, I like to learn new things and am pretty good at it. If you see me anywhere don't forget to come say hi. In this website you'll get to know everything about me, my hobbies, my interests, etc. Enjoy!</p> 
- 	 </div>
+    <p id="info" class=" animated fadeIn" style="text-align: center;">Hi! Thats's me! An avid gamer and an enthusiastic sketch artist, I like to learn new things and am pretty good at it. If you see me anywhere don't forget to come say hi. In this website you'll get to know everything about me, my hobbies, my interests, etc. Enjoy!</p> 
 
-<div class="row">
+
+    <div id="swap1"><br><br>
+  <div class="row"  >
   <div class="col-md-4">
     <div class="thumbnail hvr-sweep-to-right hvr-grow-shadow">
       <a href="about.html">
-        <img  style="height:220px" src="images/me.jpg" alt="Lights" style="width:100%">
+        <img class=" animated zoomIn"  style="height:220px" src="images/me.jpg" alt="Lights" style="width:100%">
    <!-- <div class="caption">
      <p>About me !</p>
    </div> -->
@@ -66,7 +68,7 @@
   <div class="col-md-4">
     <div class="thumbnail hvr-sweep-to-right hvr-grow-shadow">
       <a href="tech.html">
-        <img style="height:220px" src="images/tech2.jpg" alt="Nature" style="width:100%">
+        <img class=" animated zoomIn" style="height:220px" src="images/tech2.jpg" alt="Nature" style="width:100%">
         <!-- <div class="caption">
           <p>Technical Skills</p>
         </div> -->
@@ -76,7 +78,46 @@
       <div class="col-md-4">
         <div class="thumbnail hvr-sweep-to-right hvr-grow-shadow">
           <a href="gallery.html">
-            <img style="height:220px; width:100%; " src="images/gallery.jpg" alt="Nature" >
+            <img class=" animated zoomIn" style="height:220px; width:100%; " src="images/gallery.jpg" alt="Nature" >
+           <!--  <div class="caption">
+             <p>Technical Skills</p>
+           </div> -->
+          </a>
+        </div>
+      </div>
+  </div>
+  </div>
+
+
+
+
+ 	 </div>
+
+<div class="row" id="swap2" style="display:none;">
+  <div class="col-md-4">
+    <div class="thumbnail hvr-sweep-to-right hvr-grow-shadow">
+      <a href="about.html">
+        <img class=" animated zoomIn"  style="height:220px" src="images/me.jpg" alt="Lights" style="width:100%">
+   <!-- <div class="caption">
+     <p>About me !</p>
+   </div> -->
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail hvr-sweep-to-right hvr-grow-shadow">
+      <a href="tech.html">
+        <img class=" animated zoomIn" style="height:220px" src="images/tech2.jpg" alt="Nature" style="width:100%">
+        <!-- <div class="caption">
+          <p>Technical Skills</p>
+        </div> -->
+      </a>
+    </div>
+  </div>
+      <div class="col-md-4">
+        <div class="thumbnail hvr-sweep-to-right hvr-grow-shadow">
+          <a href="gallery.html">
+            <img class=" animated zoomIn" style="height:220px; width:100%; " src="images/gallery.jpg" alt="Nature" >
            <!--  <div class="caption">
              <p>Technical Skills</p>
            </div> -->
